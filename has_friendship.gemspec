@@ -1,4 +1,4 @@
-RAILS_VERSIONS = ['>= 4.2.0', '< 6.2'].freeze
+RAILS_VERSIONS = ['>= 4.2.0', '< 7.4'].freeze
 
 $:.push File.expand_path("../lib", __FILE__)
 
@@ -9,9 +9,9 @@ require "has_friendship/version"
 Gem::Specification.new do |s|
   s.name        = "has_friendship"
   s.version     = HasFriendship::VERSION
-  s.authors     = ["Sung Won Cho"]
-  s.email       = ["mikeswcho@gmail.com"]
-  s.homepage    = "https://github.com/sungwoncho/has_friendship"
+  s.authors     = ["Muhammed Kanyi"]
+  s.email       = ["kanyi@gcubed"]
+  s.homepage    = "https://github.com/geniuskidkanyi/has_friendship"
   s.summary     = "Add social network friendship features to your Active Record models."
   s.license     = "MIT"
 
