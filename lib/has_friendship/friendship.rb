@@ -1,7 +1,7 @@
 module HasFriendship
   class Friendship < ActiveRecord::Base
     validate :satisfy_custom_conditions
-
+    notification_object
     after_create do |record|
       friend.on_friendship_created(record)
     end
